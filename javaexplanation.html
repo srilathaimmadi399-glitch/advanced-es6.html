@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Explanation</title>
+</head>
+<body>
+    <h1>Welcome to chlapathi</h1>
+    <!-- <button onclick="showMessage()">click me</button> -->
+     <script>
+       //Task : take two numbers from user then perform addition,sub,mul,div  make sure to use template literals
+       let B = 10
+       let F = 5
+       add = B+F
+       sub = B-F
+       ans = add
+       ans1=sub
+       console.log(`add ${ans}`)
+       console.log(`sum ${ans1}`)
+       //CONDITIONAL STATEMENTS
+       // if statement
+       let age = 20;
+       if(age>= 18){
+        console.log("Eligible")
+        document.write("eligible")
+       }
+       //2.elif
+       let age2 = 20;
+       if(age>= 18){
+        document.write("eligible")
+       }
+       else {
+        console.log("Not eligible")
+        document.write("not eligible")
+       }
+
+       //else if ladder
+       let marks = 85
+       if (marks > 90){
+        console.log("Grade A")
+       }
+       else if(marks >= 80){
+        console.log("Grade B")
+      }
+       else if(marks > 45){
+        consol.log("Grade C")
+     }
+     else{
+        console.log("fail")
+     }
+       
+     //4.Switch statement
+     let day = 5
+     switch(day){
+        case 1:
+            console.log("Monday")
+            break;
+        case 2:
+            console.log("Thuesday")
+            break;
+        case 3:
+            console.log("Wednesday")
+            break;
+        default:
+            console.log("Invalid day")
+     }
+
+
+     //FOR loop
+     for(let i=0; i<=5; i++){
+        console.log(i)
+     }
+     //multi[lication table of 7
+     let a =7;
+     for(let i=1; i<=10; i++){
+        console.log(`7 X ${i}=${7*i}`);
+     }
+//ood nubers sum
+let total = 0;
+for(let i=5; i<=50;i+=2){
+    total +=i
+    }
+    console.log(total);
+//fact of 6
+let b = 1;
+for(let i=1;i<=6;i++){
+
+    b = b*i;
+    }
+    console.log(b);
+    
+    // Do-while
+let password;
+do{
+    password = prompt("Enter the password:")
+}while(password!=1234)
+
+//while
+while(password!=1234){
+    password = prompt("Enter the number:")
+}
+
+     </script>
+    
+    </body>
+</html>
